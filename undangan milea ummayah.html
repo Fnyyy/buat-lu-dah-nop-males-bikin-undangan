@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajakan Main! ☁️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen to make it feel like a real app -->
+    <div id="loader">
+        <div class="spinner"></div>
+        <p>ntar nih loading ngelag</p>
+    </div>
+
+    <!-- Decorative background elements -->
+    <div class="cloud cloud1">☁️</div>
+    <div class="cloud cloud2">☁️</div>
+    <div class="cloud cloud3">☁️</div>
+
+    <div class="container hidden" id="invite-container">
+        <div class="badge">udangan khusus MILEA ummayah ✨</div>
+        <img src="cinna.png" alt="Cinnamoroll" class="cinna-img floating">
+        <h1>Eh nop, lu mau cabut bareng gue ga nih? ☁️</h1>
+        
+
+
+        <div class="buttons">
+            <button id="yes-btn">boleh dah</button>
+            <button id="no-btn">gamau jir</button>
+        </div>
+    </div>
+
+    <div class="container hidden" id="rundown-container">
+        <img src="cinna.png" alt="Cinnamoroll Happy" class="cinna-img floating-fast">
+        <h1>Hayyuk gaskan cuk</h1>
+        
+        <div class="content-wrapper">
+            <div class="timeline">
+                <h3>Jadwal Acara 📅</h3>
+                <div class="event">
+                    <div class="time">10:00 AM - 12:00 PM</div>
+                    <div class="desc">
+                        <h4>Tujuan Pertama 📍</h4>
+                        <p>Taman Bacaan Hendra, Jl. Sabang No.28, Cihapit, Kec. Bandung Wetan.<br>Makan atau ngopi dulu bos, biar kuat jalan.</p>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="time">12:00 PM onwards</div>
+                    <div class="desc">
+                        <h4>Jalan-jalan (sebenarnya masih nentuin sih tujuannya kemana) </h4>
+                        <p>gatau jir muterin bandung atau cihapit dulu aja banyak kuliner atau apapun gw cariin nanti</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="checklist">
+                <h3>Yang Wajib Dibawa 🎒</h3>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="item1"> 
+                        <label for="item1">
+                            <span class="custom-checkbox"></span>
+                            Novel hujan gwe woi 📖
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="item2"> 
+                        <label for="item2">
+                            <span class="custom-checkbox"></span>
+                            sepatu NB BARUUUUU 👟
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
